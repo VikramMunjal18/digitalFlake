@@ -1,0 +1,58 @@
+/* frontend/src/components/WarehouseTable.css */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-new-btn {
+  background-color: #800080;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.add-new-btn:hover {
+  background-color: #4b004b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+.active-status {
+  color: green;
+}
+
+.inactive-status {
+  color: red;
+}
+
+.edit-btn,
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  color: #800080;
+}
